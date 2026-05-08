@@ -9,8 +9,8 @@
    --image-name "BrDeb" \
    --linux-flavours amd64 \
    --distribution stable \
-   --archive-areas "main contrib non-free" \
-   --parent-archive-areas "main contrib non-free" \
+   --archive-areas "main contrib non-free non-free-firmware" \
+    --parent-archive-areas "main contrib non-free non-free-firmware" \
    --parent-debian-installer-distribution stable \
    --debian-installer live \
    --debian-installer-gui true \
